@@ -47,6 +47,7 @@ echo "
 
 mkdir -p install && cd install
 git clone https://github.com/MIT-SPARK/ROBIN.git
+git reset --hard 5ccf361ffcc00df582a9bcd5c5febe14254edd3d
 mkdir -p ROBIN/build && cd ROBIN/build
 
 # To generate `libpmc.a`
